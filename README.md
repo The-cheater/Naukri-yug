@@ -1,112 +1,76 @@
-<h1 align="center">🧠 Inoichi – AI for Impact in Healthcare 🚑</h1>
+# 🚀 Naukri-yug - Modern Job Search Platform
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExanN4ZWxvNnJoazgwNHBvaG55N2N3MGVjN3FtbzU3N3M0ZGZlZG0xNSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VbnUQpnihPSIgIXuZv/giphy.gif" width="200"/>
 </p>
 
-<p align="center">
-  <b>An AI-powered platform blending symptom detection, emergency support, and wellness care.</b><br>
-  <i>Built by <strong>SEEDHE CODE</strong> for the Pragati AI for Impact Hackathon 2025 🚀</i>
-</p>
+A modern, user-friendly job search platform built with React, Vite, and Tailwind CSS.
 
----
+## ✨ Features
 
-## 🚨 Problem Statement: *Fragmented Healthcare Leaves Millions Behind*
+- 🔍 Advanced job search functionality
+- 📱 Responsive design for all devices
+- 🎨 Modern UI with smooth animations
+- 🔐 Secure authentication system
+- 📊 Job application tracking
+- 💼 Company profiles and reviews
+- 📱 Mobile-first approach
 
-- ❗ Delayed diagnoses for rare conditions  
-- ⚠️ Low symptom awareness  
-- 🚑 Overloaded healthcare systems  
-- 🆘 Inefficient emergency responses  
-- 📉 Poor preventive care tracking  
+## 🛠 Tech Stack
 
----
+- **Frontend**: React, Vite, Tailwind CSS
+- **UI Components**: Shadcn UI
+- **State Management**: React Context API
+- **Routing**: React Router
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
 
-## 🌟 Inoichi at a Glance
+## 🚀 Getting Started
 
-| Feature | Description |
-|--------|-------------|
-| 🧩 **Symptom Bingo Generator** | Converts symptoms to a medical term grid for pattern detection |
-| 👨‍⚕️ **Doctor Consultations** | Book verified doctors with real-time availability & payments |
-| 💬 **AI Chatbot** | 24/7 symptom assistant with validated suggestions |
-| 📊 **Health Tracker** | Log symptoms, monitor health, track patterns |
-| 🆘 **Emergency SOS** | One-tap ambulance/doctor/guardian alert |
-| 🌐 **Community Insights** | Crowd-sourced medical trends and symptom patterns |
-| 🧘‍♀️ **Wellness & Fitness** | Earn XP by doing yoga, cardio, and stretching 🧘 |
+1. Clone the repository:
+```bash
+git clone https://github.com/The-cheater/Naukri-yug.git
+cd Naukri-yug
+```
 
----
-
-## ⚙️ Tech Stack & Architecture
-
-```mermaid
-graph TD
-  A[User] --> B[Frontend - React/Vite]
-  B --> C[Backend - Node.js/Express]
-  C --> D[MongoDB + Pinecone]
-  D --> E[AI/ML Models - TensorFlow, Keras, Flowise]
-<details> <summary>🔍 Click to View AI/ML Stack</summary>
-🤖 Chatbot: HuggingFace, Gemini, Flowise
-
-🔍 Symptom Bingo: Retrieval-Augmented Generation (RAG)
-
-🧠 Wound Detection: CNN (TensorFlow/Keras)
-
-🗂 Vector DB: FAISS/Pinecone for symptom-disease matching
-
-📊 Predictive Analytics: Early warnings based on user trends
-
-</details>
-💥 Why Inoichi?
-✨ All-in-one healthcare platform
-🌍 Open-source & scalable
-⚙ Modular AI tools
-📡 Cloud + Edge deployment ready
-🙌 Built for community impact
-
-🧪 Prototype Showcase
-<p align="center"> <img src="https://media.giphy.com/media/QBd2kLB5qDmysEXre9/giphy.gif" width="300"/> </p>
-🏥 Target Users
-Patients with undiagnosed or rare conditions
-
-People needing preventive health tracking
-
-Emergency medical support seekers
-
-🚀 Getting Started
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/inoichi.git
-cd inoichi
+2. Install dependencies:
+```bash
 npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
-💡 Future Scope
-📱 Android/iOS App
+```
 
-🗣 Regional language NLP support
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-🧑‍⚕️ Doctor Dashboard & Admin Panel
+## 📁 Project Structure
 
-💾 Offline emergency support
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── context/       # React context providers
+├── hooks/         # Custom React hooks
+├── utils/         # Utility functions
+└── assets/        # Static assets
+```
 
-🤝 Team SEEDHE CODE
-Name	Role
-Rohan Kumar Jena	Team Leader & Backend
-[You/Other Names]	Frontend / AI Models / UI-UX
-🌐 Connect With Us
-🏆 Hackathon: Pragati 2025
+## 🤝 Contributing
 
-🌱 Open to collaborations and contributions
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-<p align="center"> <b>Inoichi – Empowering Healthcare with Open-Source AI 🚀</b> </p> ```
-✅ Tips:
-Add your project GIFs or UI screenshots in assets/ folder and replace giphy links.
+## 📝 License
 
-If using on GitHub, make sure image/GIF links are HTTPS and hosted (or commit them to your repo).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can enhance with Shields.io badges like:
+## 👨‍💻 Author
 
-md
-Copy
-Edit
-![Status](https://img.shields.io/badge/Status-Prototype-orange)
-![License](https://img.shields.io/badge/License-MIT-blue)
+- [The-cheater](https://github.com/The-cheater)
+
+---
+
+<p align="center">
+  Made with ❤️ by The-cheater
+</p>
